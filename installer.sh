@@ -6,5 +6,5 @@ sed -i '/^\[Desktop Entry\]/,/^\[/ s/^DefaultProfile=.*/DefaultProfile=claudemod
 rm -rf /home/$USER/claudemods-cyan-konsole
 echo claudemods cyan konsole scheme installed
 sleep 1
-killall konsole && konsole -e
+killall konsole && nohup konsole
 
