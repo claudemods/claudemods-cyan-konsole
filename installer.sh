@@ -7,4 +7,3 @@ rm -rf /home/$USER/claudemods-cyan-konsole
 sleep 1
 killall konsole 
 nohup konsole &
-echo "claudemods cyan konsole scheme installed"
