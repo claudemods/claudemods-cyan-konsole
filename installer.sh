@@ -5,5 +5,5 @@ cp -r /home/$USER/claudemods-cyan-konsole/claudemods-cyan.profile /home/$USER/.l
 sed -i '/^\[Desktop Entry\]/,/^\[/ s/^DefaultProfile=.*/DefaultProfile=claudemods-cyan.profile/' ~/.config/konsolerc
 rm -rf /home/$USER/claudemods-cyan-konsole
 echo claudemods cyan konsole scheme installed
-konsole
+killall konsole && konsole
 
